@@ -38,7 +38,6 @@ namespace BowlingGame
             return score;
         }
 
-
         private bool IsStrike(int frameIndex)
         {
             return rolls[frameIndex] == 10;
@@ -48,7 +47,6 @@ namespace BowlingGame
         {
             return rolls[frameIndex] + rolls[frameIndex + 1];
         }
-
 
         private int SpareBonus(int frameIndex)
         {
